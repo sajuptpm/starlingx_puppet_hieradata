@@ -171,7 +171,7 @@ keystone::log_facility: 'local2'
 keystone::database_idle_timeout: 60
 keystone::database_max_pool_size: 1
 keystone::database_max_overflow: 50
-keystone::enable_bootstrap: false
+keystone::enable_bootstrap: true
 keystone::sync_db: false
 keystone::enable_proxy_headers_parsing: true
 keystone::log_file: /dev/null
